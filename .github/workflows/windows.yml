@@ -55,7 +55,7 @@ jobs:
       - run: git config --global core.autocrlf input
         shell: pwsh
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-      - uses: cygwin/cygwin-install-action@006ad0b0946ca6d0a3ea2d4437677fa767392401 # v4
+      - uses: cygwin/cygwin-install-action@5a1b0cd107181fa6bb6bf3f90d500f4fb3132f18 # v7.0.0
         with:
           platform: ${{ matrix.platform }}
           site: https://mirrors.kernel.org/sourceware/cygwin/
